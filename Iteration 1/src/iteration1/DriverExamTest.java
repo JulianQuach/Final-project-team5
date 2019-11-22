@@ -11,12 +11,12 @@ public class DriverExamTest {
 		System.out.println("Welcome to the Quiz! \nThere are 20 questions in total. \nThere are 4 options for every question but only one correct answer. "
 				+ "\nPlease choose your answer wisely from option A, B, C or D."
 				+ "\nYou have to answer 17 of them correctly to win the game."
-				+ "\nLet the game begin!");
+				+ "\nLet the game begin!\n");
 		
 		
 			String userResponse;
 			
-			System.out.println("\n \n1. Drinking alcohol while taking drugs can:"
+			System.out.println("\n1. Drinking alcohol while taking drugs can:"
 					+ "\n A. have a more pronounced effect than either taken separately."
 					+ "\n B. have less pronounced effect than either taken separately."
 					+ "\n C. improve your driving performance."
@@ -31,7 +31,7 @@ public class DriverExamTest {
 			studentAnswers[0] = userResponse;
 			
 			
-			System.out.println("\n\n 2. A steady yellow light at an intersection means:"
+			System.out.println("\n2. A steady yellow light at an intersection means:"
 					+ "\n A. Yield to other vehicles."
 					+ "\n B. Immediately come to a complete stop."
 					+ "\n C. Proceed with caution through the intersection."
@@ -46,7 +46,7 @@ public class DriverExamTest {
 			studentAnswers[1] = userResponse;
 		
 			
-			System.out.println("\n \n3. ABS is the acronym for:"
+			System.out.println("\n3. ABS is the acronym for:"
 					+ "\n A. Anti-Locking Brake System."
 					+ "\n B. Anti-Braking System."
 					+ "\n C. Average-Beam System."
@@ -60,7 +60,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[2] = userResponse;
 			
-			System.out.println("\n \n4. Your ability to drive safely can be impaired by:"
+			System.out.println("\n4. Your ability to drive safely can be impaired by:"
 					+ "\n A. alcohol."
 					+ "\n B. drugs, even if they are over-the-counter."
 					+ "\n C. lack of sleep."
@@ -74,7 +74,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[3] = userResponse;
 			
-			System.out.println("\n \n5. Warning signs normally are:"
+			System.out.println("\n5. Warning signs normally are:"
 					+ "\n A. triangles."
 					+ "\n B. diamond-shaped."
 					+ "\n C. rectangles."
@@ -88,7 +88,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[4] = userResponse;
 			
-			System.out.println("\n \n6. If your vehicles starts to hydroplane you should:"
+			System.out.println("\n6. If your vehicles starts to hydroplane you should:"
 					+ "\n A. maintain your current speed to gain better traction."
 					+ "\n B. apply the brakes firmly to prevent your vehices from sliding."
 					+ "\n C. slow down gradually and do not apply the brakes."
@@ -102,7 +102,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[5] = userResponse;
 			
-			System.out.println("\n \n7. Drivers often fail to see a motorcycle headed toward them. Why?:"
+			System.out.println("\n7. Drivers often fail to see a motorcycle headed toward them. Why?:"
 					+ "\n A. It is hard to judge how far away a motorcycle is."
 					+ "\n B. It is difficult to judge a motorcycle's speed."
 					+ "\n C. Motorcycles are hard to see."
@@ -116,7 +116,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[6] = userResponse;
 			
-			System.out.println("\n \n8. When an aggressive driver confronts you, you should:"
+			System.out.println("\n8. When an aggressive driver confronts you, you should:"
 					+ "\n A. Report aggressive drivers to law enforcement authorities."
 					+ "\n B. Try to move away safely."
 					+ "\n C. Remain calm and relaxed."
@@ -130,7 +130,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[7] = userResponse;
 			
-			System.out.println("\n \n9. ___________ normally are white rectangles with black letters or symbols:"
+			System.out.println("\n9. ___________ normally are white rectangles with black letters or symbols:"
 					+ "\n A. Warning signs."
 					+ "\n B. Destination signs (guide signs)."
 					+ "\n C. Service signs."
@@ -144,7 +144,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[8] = userResponse;
 			
-			System.out.println("\n \n10. When you reach an intersection with a stop sign, you should:"
+			System.out.println("\n10. When you reach an intersection with a stop sign, you should:"
 					+ "\n A. stop, look right, then left, then right again."
 					+ "\n B. Check your rearview mirror, look left, then right, then proceed."
 					+ "\n C. Stop, look left, then right, then left again."
@@ -158,7 +158,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[9] = userResponse;
 			
-			System.out.println("\n \n11. An aggressive driver:"
+			System.out.println("\n11. An aggressive driver:"
 					+ "\n A. competes with other traffic."
 					+ "\n B. Shows little or no respect for traffic laws."
 					+ "\n C. Weaves in and out of traffic."
@@ -172,7 +172,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[10] = userResponse;
 			
-			System.out.println("\n \n12. Drivers may pass another vehicle if the line dividing two lanes is a ________ line:"
+			System.out.println("\n12. Drivers may pass another vehicle if the line dividing two lanes is a ________ line:"
 					+ "\n A. Solid yellow."
 					+ "\n B. solid white."
 					+ "\n C. double solid yellow."
@@ -186,7 +186,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[11] = userResponse;
 			
-			System.out.println("\n \n13. When you are driving, turning your head and looking before changing lanes is:"
+			System.out.println("\n13. When you are driving, turning your head and looking before changing lanes is:"
 					+ "\n A. prohibited."
 					+ "\n B. A bad driving habit."
 					+ "\n C. A good driving habit."
@@ -200,7 +200,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[12] = userResponse;
 			
-			System.out.println("\n \n14. If you suddenly have no control of the steering wheel, you should:"
+			System.out.println("\n14. If you suddenly have no control of the steering wheel, you should:"
 					+ "\n A. ease your foot off the gas pedal. Turn on your emergency flashers and allow your vehicle to come to a slow stop."
 					+ "\n B. Pump your brake pedal to build pressure."
 					+ "\n C. Turn on your emergency flashers and pull off the road."
@@ -214,7 +214,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[13] = userResponse;
 			
-			System.out.println("\n \n15. Do not pass:"
+			System.out.println("\n15. Do not pass:"
 					+ "\n A. when school bus lights are flashing."
 					+ "\n B. On hills or curves."
 					+ "\n C. When approaching intersections."
@@ -228,7 +228,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[14] = userResponse;
 			
-			System.out.println("\n \n16. In heavy rain, tires can begin to ride on the water that is on top of the road pavement. This is called:"
+			System.out.println("\n16. In heavy rain, tires can begin to ride on the water that is on top of the road pavement. This is called:"
 					+ "\n A. pavement-planing."
 					+ "\n B. Hydroplaning."
 					+ "\n C. Rideplaning."
@@ -242,7 +242,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[15] = userResponse;
 			
-			System.out.println("\n \n17. Which shape is a speed limit sign?"
+			System.out.println("\n17. Which shape is a speed limit sign?"
 					+ "\n A. Vertical rectangle."
 					+ "\n B. Diamond."
 					+ "\n C. Pentagon."
@@ -256,7 +256,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[16] = userResponse;
 			
-			System.out.println("\n \n18. More than one vehicle is approaching a four-way stop sign. Who has the right of way?"
+			System.out.println("\n18. More than one vehicle is approaching a four-way stop sign. Who has the right of way?"
 					+ "\n A. The driver on the left."
 					+ "\n B. The last driver to reach the intersection."
 					+ "\n C. The first driver to reach the intersection and stop."
@@ -270,7 +270,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[17] = userResponse;
 			
-			System.out.println("\n \n19. When you see an emergency vehicle with flashing lights behind you, you should:"
+			System.out.println("\n19. When you see an emergency vehicle with flashing lights behind you, you should:"
 					+ "\n A. disregard the signal if there are other lanes available for the emergency vehicle."
 					+ "\n B. slow down, provide a clear path for the emergency vehicle and stop."
 					+ "\n C. immediately come to a complete stop."
@@ -284,7 +284,7 @@ public class DriverExamTest {
 			}
 			studentAnswers[18] = userResponse;
 			
-			System.out.println("\n \n20. When changing lanes, you can check your blind spot by:"
+			System.out.println("\n20. When changing lanes, you can check your blind spot by:"
 					+ "\n A. using the inside rearview mirror."
 					+ "\n B. checking the rearview and outside mirrors."
 					+ "\n C. using the outside rearview mirror."
@@ -305,10 +305,10 @@ public class DriverExamTest {
 							driverExamObject.totalInCorrect()+ " incorrect answers.");
 		
 		if(!(driverExamObject.passed())) {
-		System.out.print("These questions were wrong: ");
+		System.out.print("You got these questions wrong: ");
 		for(int index = 0; index < driverExamObject.questionsMissed().length; index++) {
 			if(driverExamObject.questionsMissed()[ index ] !=0 ) {
-				System.out.print( driverExamObject.questionsMissed()[ index ]+ " ");
+				System.out.print( driverExamObject.questionsMissed()[ index ]+ ", ");
 			}
 		}
 		}
