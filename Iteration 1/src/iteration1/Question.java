@@ -18,7 +18,7 @@ public class Question {
 	}
 	
 	public boolean checkAnswer(char a) {
-		if (a == answer) {
+		if (Character.toLowerCase(a) == Character.toLowerCase(answer)) {
 			return true;
 		}
 		return false;
