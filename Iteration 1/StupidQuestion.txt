@@ -161,3 +161,21 @@ Nuclear bomb
 Water balloon
 Paper airplane
 B
+Which of the following is a subject in kindergarten:
+History
+Quantum Biology
+Discrete Calculus
+None
+D
+Which one is a four letter word:
+One
+Two
+Three
+Four
+D
+Which one is an orchestra instrument:
+Piano
+Tuna Fish
+Vuvuzela
+Keyboard
+D
