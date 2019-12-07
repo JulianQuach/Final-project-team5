@@ -1,4 +1,4 @@
-package iteration1;
+package Exam;
 
 public class Question {
 	private String question;
@@ -7,7 +7,7 @@ public class Question {
 	private String answer3;
 	private String answer4;
 	private char answer;
-	
+
 	public Question(String question, String a1, String a2, String a3, String a4, char a) {
 		this.question = question;
 		answer1 = a1;
@@ -16,14 +16,14 @@ public class Question {
 		answer4 = a4;
 		answer = a;
 	}
-	
+
 	public boolean checkAnswer(char a) {
 		if (Character.toLowerCase(a) == Character.toLowerCase(answer)) {
 			return true;
 		}
 		return false;
 	}
-	
+
 	public String toString1() {
 		String s = question + "\n";
 		s = s.concat("A. " + answer1 + "\n");
